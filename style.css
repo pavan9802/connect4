@@ -1,0 +1,28 @@
+.grid {
+    border: 1px solid;
+    height: 600px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(189, 126, 107);
+  }
+  
+  .grid div {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .player-one {
+    background-color: white;
+    /*border-radius: 10px;*/
+    shape-outside: circle();
+    clip-path: circle();
+  }
+  
+  .player-two {
+    background-color: black;
+    /*border-radius: 10px;*/
+    shape-outside: circle();
+    clip-path: circle();
+  }
+  
